@@ -15,6 +15,7 @@ body {
   align-items: center;
   /* background: rgb(27,51,201); */
   background: linear-gradient(20deg, #1b33c9 0%, #2b9e78 51%);
+
 }
 .main {
     width: 50%;

@@ -14,9 +14,9 @@ const operation1 = function () {
     color1 += str[Math.floor(Math.random() * 16)];
   }
 
-  finalcolor = `linear-gradient( 90deg,${color1}  0%, ${tempcolor2}`;
+  finalcolor = `linear-gradient(90deg,${color1} 10%, ${tempcolor2})`;
   body.style.background = finalcolor;
-  copyBox.innerHTML = `background:${finalcolor}`;
+  copyBox.innerHTML = `background:${finalcolor};`;
 
   //   console.log(color1);
   btn1.innerHTML = color1;
@@ -27,9 +27,9 @@ const operation2 = function () {
   for (let i = 0; i < 6; i++) {
     color2 += str[Math.floor(Math.random() * 16)];
   }
-  finalcolor = `linear-gradient( 90deg,${tempcolor}  0%, ${color2}`;
+  finalcolor = `linear-gradient(90deg,${tempcolor} 10%, ${color2})`;
   body.style.background = finalcolor;
-  copyBox.innerHTML = `background: ${finalcolor}`;
+  copyBox.innerHTML = `background:${finalcolor};`;
 
   //   console.log(color1);
   btn2.innerHTML = color2;
